@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest Version="1.1.0">
+  <Variables>
+    <Variable Name="CurrentDate" Comment="" AccessRights="Read" DataType="DATE" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="CurrentTime" Comment="" AccessRights="Read" DataType="TIME" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="CurrentUnitStatus" Comment="" AccessRights="ReadWrite" DataType="USINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="CurrentWkDay" Comment="" AccessRights="Read" DataType="UINT" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="Dayplus" Comment="" AccessRights="ReadWrite" DataType="UINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="DaySchedAct" Comment="" AccessRights="ReadWrite" DataType="BOOL" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="DaysScheduler" Comment="" AccessRights="Read" DataType="DAYS_SCHED" Kind="VarInput">
+      <Variable Name="DaysScheduler[0]" DataType="DAY_SCHED">
+        <Variable Name="EVENT" DataType="DAYEVENTS_SCHED">
+          <Variable Name="EVENT[0]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[1]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[2]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[3]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+        </Variable>
+      </Variable>
+      <Variable Name="DaysScheduler[1]" DataType="DAY_SCHED">
+        <Variable Name="EVENT" DataType="DAYEVENTS_SCHED">
+          <Variable Name="EVENT[0]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[1]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[2]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[3]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+        </Variable>
+      </Variable>
+      <Variable Name="DaysScheduler[2]" DataType="DAY_SCHED">
+        <Variable Name="EVENT" DataType="DAYEVENTS_SCHED">
+          <Variable Name="EVENT[0]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[1]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[2]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[3]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+        </Variable>
+      </Variable>
+      <Variable Name="DaysScheduler[3]" DataType="DAY_SCHED">
+        <Variable Name="EVENT" DataType="DAYEVENTS_SCHED">
+          <Variable Name="EVENT[0]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[1]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[2]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[3]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+        </Variable>
+      </Variable>
+      <Variable Name="DaysScheduler[4]" DataType="DAY_SCHED">
+        <Variable Name="EVENT" DataType="DAYEVENTS_SCHED">
+          <Variable Name="EVENT[0]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[1]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[2]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[3]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+        </Variable>
+      </Variable>
+      <Variable Name="DaysScheduler[5]" DataType="DAY_SCHED">
+        <Variable Name="EVENT" DataType="DAYEVENTS_SCHED">
+          <Variable Name="EVENT[0]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[1]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[2]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[3]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+        </Variable>
+      </Variable>
+      <Variable Name="DaysScheduler[6]" DataType="DAY_SCHED">
+        <Variable Name="EVENT" DataType="DAYEVENTS_SCHED">
+          <Variable Name="EVENT[0]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[1]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[2]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+          <Variable Name="EVENT[3]" DataType="DAYEVENT_SCHED">
+            <Variable Name="Hours" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (hour)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Mins" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Starting time of the daily event (minute)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the daily event (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Daily event enabled" Kind="VarInput" Access="ReadWrite" />
+            <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+          </Variable>
+        </Variable>
+      </Variable>
+    </Variable>
+    <Variable Name="i" Comment="" AccessRights="ReadWrite" DataType="DINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="j" Comment="" AccessRights="ReadWrite" DataType="DINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="n" Comment="" AccessRights="ReadWrite" DataType="DINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="NoDayEventActive" Comment="" AccessRights="ReadWrite" DataType="DINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="NoDayEventActivePrevDay" Comment="" AccessRights="ReadWrite" DataType="DINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="NoVacationsAct" Comment="" AccessRights="ReadWrite" DataType="USINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="OneDayWasActive" Comment="" AccessRights="ReadWrite" DataType="BOOL" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="prevDay" Comment="" AccessRights="ReadWrite" DataType="DINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="SpecDayIsAuto" Comment="" AccessRights="Read" DataType="BOOL" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="t" Comment="" AccessRights="ReadWrite" DataType="DINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="TempDayStatus" Comment="" AccessRights="ReadWrite" DataType="USINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="time0" Comment="" AccessRights="ReadWrite" DataType="TIME" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="time1" Comment="" AccessRights="ReadWrite" DataType="TIME" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="VacationAct" Comment="" AccessRights="ReadWrite" DataType="BOOL" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="VacationsMessage" Comment="" AccessRights="Read" DataType="USINT" Kind="VarInput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="VacationsScheduler" Comment="" AccessRights="Read" DataType="VACATIONS_SCHED" Kind="VarInput">
+      <Variable Name="VacationsScheduler[0]" DataType="VACATION_SCHED">
+        <Variable Name="StartDay" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="First day of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="StartMonth" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="First month of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="EndDay" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Last day of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="EndMonth" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Last month of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the holiday period (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Holiday period enabled" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="Start_Date" DataType="DATE" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="End_Date" DataType="DATE" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+      </Variable>
+      <Variable Name="VacationsScheduler[1]" DataType="VACATION_SCHED">
+        <Variable Name="StartDay" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="First day of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="StartMonth" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="First month of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="EndDay" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Last day of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="EndMonth" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Last month of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the holiday period (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Holiday period enabled" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="Start_Date" DataType="DATE" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="End_Date" DataType="DATE" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+      </Variable>
+      <Variable Name="VacationsScheduler[2]" DataType="VACATION_SCHED">
+        <Variable Name="StartDay" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="First day of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="StartMonth" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="First month of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="EndDay" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Last day of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="EndMonth" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Last month of period" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="UnitStatus" DataType="USINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Unit status of the holiday period (0=OFF; 1=ECONOMY; 2=PRE-COMFORT; 3=COMFORT)" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Holiday period enabled" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="Flag_Enabled" DataType="BOOL" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="Start_Date" DataType="DATE" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+        <Variable Name="End_Date" DataType="DATE" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="" Kind="VarInput" Access="ReadWrite" />
+      </Variable>
+    </Variable>
+  </Variables>
+</Manifest>

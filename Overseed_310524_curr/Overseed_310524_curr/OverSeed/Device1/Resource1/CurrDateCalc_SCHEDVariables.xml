@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest Version="1.1.0">
+  <Variables>
+    <Variable Name="CurrDate" Comment="" AccessRights="ReadWrite" DataType="DATE" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="CurrTime" Comment="" AccessRights="ReadWrite" DataType="TIME" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="DateToUint" Comment="" AccessRights="ReadWrite" DataType="DATE_TO_UINT" Kind="Var">
+      <Variable Name="DATE_IN" DataType="DATE" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Input date" Kind="VarInput" Access="ReadWrite" />
+      <Variable Name="SECOND" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Seconds from date" Kind="VarOutput" Access="ReadWrite" />
+      <Variable Name="MINUTE" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Minutes from date" Kind="VarOutput" Access="ReadWrite" />
+      <Variable Name="HOUR" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Hours from date" Kind="VarOutput" Access="ReadWrite" />
+      <Variable Name="DAY" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Days from date" Kind="VarOutput" Access="ReadWrite" />
+      <Variable Name="MONTH" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Months from date" Kind="VarOutput" Access="ReadWrite" />
+      <Variable Name="YEAR" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Years from date" Kind="VarOutput" Access="ReadWrite" />
+    </Variable>
+    <Variable Name="Day" Comment="" AccessRights="ReadWrite" DataType="UINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="Hour" Comment="" AccessRights="ReadWrite" DataType="UINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="Minute" Comment="" AccessRights="ReadWrite" DataType="UINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="Month" Comment="" AccessRights="ReadWrite" DataType="UINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="MonthTmp" Comment="" AccessRights="ReadWrite" DataType="UINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="UINT_TO_DATE_1" Comment="" AccessRights="ReadWrite" DataType="UINT_TO_DATE" Kind="Var">
+      <Variable Name="SECOND" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Seconds for date" Kind="VarInput" Access="ReadWrite" />
+      <Variable Name="MINUTE" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Minutes for date" Kind="VarInput" Access="ReadWrite" />
+      <Variable Name="HOUR" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Hours for date" Kind="VarInput" Access="ReadWrite" />
+      <Variable Name="DAY" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Days for date" Kind="VarInput" Access="ReadWrite" />
+      <Variable Name="MONTH" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Months for date" Kind="VarInput" Access="ReadWrite" />
+      <Variable Name="YEAR" DataType="UINT" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Years for date" Kind="VarInput" Access="ReadWrite" />
+      <Variable Name="DATE_OUT" DataType="DATE" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Comment="Resulting date" Kind="VarOutput" Access="ReadWrite" />
+    </Variable>
+    <Variable Name="WkDay" Comment="" AccessRights="ReadWrite" DataType="UINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="Year" Comment="" AccessRights="ReadWrite" DataType="UINT" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="YearIsLeap" Comment="" AccessRights="ReadWrite" DataType="BOOL" Kind="VarOutput" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+    <Variable Name="YearTmp" Comment="" AccessRights="ReadWrite" DataType="UINT" Kind="Var" IO="false" Protocol="false" UI="false" Default="false" LogPV="false" IsRetained="false" Alarm="false" UoM="NoUnits" Access="ReadWrite" />
+  </Variables>
+</Manifest>

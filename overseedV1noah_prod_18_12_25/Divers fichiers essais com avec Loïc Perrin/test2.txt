@@ -1,0 +1,188 @@
+Version 1.3 ModbusSlave RepoVersion 3.6.6								
+Settings								
+Address	TimeOut	UoM	OnlineError	Endianess	ResponseDataEcho	AppSupport	DeviceConfErr	DeviceConfErrCode
+GeneralMng.Address_BMS2	3000	0		BigEndian	True	False		
+								
+Variables								
+Type	Index	Variable	Occupation					
+Coil	0	ov0_1mCDrt						
+Coil	1	ov0_1mCGch						
+Coil	2	ovClrHmCDrt						
+Coil	3	ovClrHmCGch						
+Coil	4	ovE000mCDrt						
+Coil	5	ovE000mCGch						
+Coil	6	ovRESmCDrt						
+Coil	7	ovRESmCGch						
+Coil	8	ov_FreeCooling_OuiNon						
+Coil	9	ov_FreeDeshu_OuiNon						
+Coil	10	ovAutorisation_PAC_D						
+Coil	11	ovAutorisation_PAC_G						
+Coil	12	ovC_blocage_free_D						
+Coil	13	ovC_blocage_free_Deshu						
+Coil	14	ovC_blocage_free_G						
+Coil	15	ovC_blocage_free_GetD						
+Coil	16	ovChoix_Nord_Sud						
+Coil	17	ovCText						
+Coil	18	ovCvit_ventil_ventil						
+Coil	19	ovForce_M_A_D						
+Coil	20	ovForce_M_A_G						
+Coil	21	ovORD_ouv_Reg_Mel_D_Forcee						
+Coil	22	ovORD_ouv_Reg_Mel_G_Forcee						
+Coil	23	ovORD_ventil_Int_Forcee						
+Coil	24	ovOuv_Reg_free_D						
+Coil	25	ovOuv_Reg_free_G						
+Coil	26	ovOuv_Reg_free_GetD						
+DiscreteInput	27	ovORD_chaud_Priva						
+DiscreteInput	28	ovORD_deshu_Priva						
+DiscreteInput	29	ovORD_Night_Day						
+DiscreteInput	30	ovORD_rafraich_Priva						
+DiscreteInput	31	ovORD_ventil_Priva						
+DiscreteInput	32	ovM_A_D						
+DiscreteInput	33	ovM_A_G						
+DiscreteInput	34	ovORD_ventil_IntD_Forcee						
+DiscreteInput	35	ovORD_ventil_IntG_Forcee						
+HoldingRegister	0	ovAFC1mCDrt	1					
+HoldingRegister	2	ovAFC1mCGch	1					
+HoldingRegister	4	ovC000mCDrt	1					
+HoldingRegister	6	ovC000mCGch	1					
+HoldingRegister	8	ovC012mCGch	1					
+HoldingRegister	10	ovC013mCDrt	1					
+HoldingRegister	12	ovC013mCGch	1					
+HoldingRegister	14	ovC014mCDrt	1					
+HoldingRegister	16	ovC014mCGch	1					
+HoldingRegister	18	ovC049mCDrt	1					
+HoldingRegister	20	ovC049mCGch	1					
+HoldingRegister	22	ovC050mCDrt	1					
+HoldingRegister	24	ovC050mCGch	1					
+HoldingRegister	26	ovE001mCDrt	1					
+HoldingRegister	28	ovE001mCGch	1					
+HoldingRegister	30	ovE004mCDrt	1					
+HoldingRegister	32	ovE004mCGch	1					
+HoldingRegister	34	ovE005mCDrt	1					
+HoldingRegister	36	ovE005mCGch	1					
+HoldingRegister	38	ovE006mCDrt	1					
+HoldingRegister	40	ovE006mCGch	1					
+HoldingRegister	42	ovE007mCDrt	1					
+HoldingRegister	44	ovE007mCGch	1					
+HoldingRegister	46	ovE012mCDrt	1					
+HoldingRegister	48	ovE012mCGch	1					
+HoldingRegister	50	ovE013mCDrt	1					
+HoldingRegister	52	ovE013mCGch	1					
+HoldingRegister	54	ovE016mCDrt	1					
+HoldingRegister	56	ovE016mCGch	1					
+HoldingRegister	58	ovE017mCDrt	1					
+HoldingRegister	60	ovE017mCGch	1					
+HoldingRegister	62	ovE020mCDrt	1					
+HoldingRegister	64	ovE020mCGch	1					
+HoldingRegister	66	ovE021mCDrt	1					
+HoldingRegister	68	ovE021mCGch	1					
+HoldingRegister	70	ovE024mCDrt	1					
+HoldingRegister	72	ovE024mCGch	1					
+HoldingRegister	74	ovE025mCDrt	1					
+HoldingRegister	76	ovE025mCGch	1					
+HoldingRegister	78	ovE026mCDrt	1					
+HoldingRegister	80	ovE026mCGch	1					
+HoldingRegister	82	ovE032mCDrt	1					
+HoldingRegister	84	ovE032mCGch	1					
+HoldingRegister	86	ovEuP1mCDrt	1					
+HoldingRegister	88	ovEuP1mCGch	1					
+HoldingRegister	90	ovH1C1mCDrt	1					
+HoldingRegister	92	ovH1C1mCGch	1					
+HoldingRegister	94	ovHFn1mCDrt	1					
+HoldingRegister	96	ovHFn1mCGch	1					
+HoldingRegister	98	ovHSP1mCDrt	1					
+HoldingRegister	100	ovHSP1mCGch	1					
+HoldingRegister	102	ovHuP1mCDrt	1					
+HoldingRegister	104	ovHuP1mCGch	1					
+HoldingRegister	106	ovOpn1mCDrt	1					
+HoldingRegister	108	ovOpn1mCGch	1					
+HoldingRegister	110	ovS028mCDrt	1					
+HoldingRegister	112	ovS028mCGch	1					
+HoldingRegister	114	ovS032mCDrt	1					
+HoldingRegister	116	ovS032mCGch	1					
+HoldingRegister	118	ovScP1mCDrt	1					
+HoldingRegister	120	ovScP1mCGch	1					
+HoldingRegister	122	ovScT1mCDrt	1					
+HoldingRegister	124	ovScT1mCGch	1					
+HoldingRegister	126	ovSEtCmCDrt	1					
+HoldingRegister	128	ovSEtCmCGch	1					
+HoldingRegister	130	ovSSH1mCDrt	1					
+HoldingRegister	132	ovSSH1mCGch	1					
+HoldingRegister	134	ovU047mCDrt	1					
+HoldingRegister	136	ovU047mCGch	1					
+HoldingRegister	138	ovU048mCDrt	1					
+HoldingRegister	140	ovU048mCGch	1					
+HoldingRegister	142	ovU081mCDrt	1					
+HoldingRegister	144	ovU081mCGch	1					
+HoldingRegister	146	ovCOuv_Reg_mel_G_mode_D	1					
+HoldingRegister	148	ovC_diff_w_DeshNON	1					
+HoldingRegister	150	ovC_diff_w_DeshOUI	1					
+HoldingRegister	152	ovC_diff_w_FreeDeshu	1					
+HoldingRegister	154	ovCcorrect_Cffg	1					
+HoldingRegister	156	ovCcorrect_DT_24deg	1					
+HoldingRegister	158	ovCcorrect_DT_sfflg	1					
+HoldingRegister	160	ovC012mCDrt	1					
+HoldingRegister	162	ovCDT1_freecool	1					
+HoldingRegister	164	ovCDT2_freecool	1					
+HoldingRegister	166	ovCDT_freeDeshu	1					
+HoldingRegister	168	ovCDT_serre_ext_free_mode_C	1					
+HoldingRegister	170	ovCDT_serre_ext_free_mode_DetC	1					
+HoldingRegister	172	ovCDT_serre_ext_free_mode_R	1					
+HoldingRegister	174	ovCDT_souf_serre_mode_C	1					
+HoldingRegister	176	ovCDT_souf_serre_mode_D	1					
+HoldingRegister	178	ovCDT_souf_serre_mode_DsansC	1					
+HoldingRegister	180	ovCOuv_Reg_mel_D_mode_C	1					
+HoldingRegister	182	ovCOuv_Reg_mel_D_mode_D	1					
+HoldingRegister	184	ovCOuv_Reg_mel_D_mode_DetC	1					
+HoldingRegister	186	ovCOuv_Reg_mel_D_mode_FreeCool	1					
+HoldingRegister	188	ovCOuv_Reg_mel_D_mode_V	1					
+HoldingRegister	190	ovCOuv_Reg_mel_G_mode_C	1					
+HoldingRegister	192	ovCOuv_Reg_mel_G_mode_DetC	1					
+HoldingRegister	194	ovCOuv_Reg_mel_G_mode_FreeCool	1					
+HoldingRegister	196	ovCOuv_Reg_mel_G_mode_V	1					
+HoldingRegister	198	ovCpoint_neutre_Vent_ext	1					
+HoldingRegister	200	ovCT_serre	1					
+HoldingRegister	202	ovCT_souf_D	1					
+HoldingRegister	204	ovCT_souf_G	1					
+HoldingRegister	206	ovCText_debut_correctif	1					
+HoldingRegister	208	ovCText_Max_FreeCooling	1					
+HoldingRegister	210	ovCText_min_FreeCooling	1					
+HoldingRegister	212	ovCText_min_FreeDeshu	1					
+HoldingRegister	214	ovCTserre_freecool	1					
+HoldingRegister	216	ovCvit_mini_Vent_ext	1					
+HoldingRegister	218	ovCvit_ventil_freecool	1					
+HoldingRegister	220	ovCvit_ventil_ventil_Nuit	1					
+HoldingRegister	222	ovCw_ext_max_free_cooling	1					
+HoldingRegister	224	ovDiviseur_Nord_Sud	1					
+HoldingRegister	226	ovCcorrect_Text	1					
+InputRegister	228	ovPRIVA_HRext	1					
+InputRegister	230	ovPRIVA_Text	1					
+InputRegister	232	ovPRIVA_HRserreNord	1					
+InputRegister	234	ovOuv_Reg_free_GetD_North	1					
+InputRegister	236	ovOuv_Reg_free_GetD_South	1					
+InputRegister	238	ovPRIVA_HRserreSud	1					
+InputRegister	240	ovPRIVA_TserreNord	1					
+InputRegister	242	ovPRIVA_TserreSud	1					
+InputRegister	244	ovT_souf_moy_North	1					
+InputRegister	246	ovT_souf_moy_South	1					
+InputRegister	248	ovVventilo_int_D	1					
+InputRegister	250	ovVventilo_int_D_Nord	1					
+InputRegister	252	ovVventilo_int_D_Sud	1					
+InputRegister	254	ovVventilo_int_G	1					
+InputRegister	256	ovVventilo_int_G_Nord	1					
+InputRegister	258	ovVventilo_int_G_Sud	1					
+InputRegister	260	ovCDT_souf_serre_retenu	1					
+InputRegister	262	ovDT_souf_serre_D	1					
+InputRegister	264	ovDT_souf_serre_G	1					
+InputRegister	266	ovOuv_Reg_mel_D	1					
+InputRegister	268	ovOuv_Reg_mel_G	1					
+InputRegister	270	ovT_souf_D	1					
+InputRegister	272	ovT_souf_G	1					
+InputRegister	274	ovTserre	1					
+InputRegister	276	ovVventilo_ext_D	1					
+InputRegister	278	ovVventilo_ext_G	1					
+InputRegister	280	ovVventilo_int	1					
+InputRegister	282	ovw_DH_serre	1					
+InputRegister	284	ovw_ext	1					
+InputRegister	286	ovw_serre	1					
+InputRegister	288	ovw_serre_saturation	1					

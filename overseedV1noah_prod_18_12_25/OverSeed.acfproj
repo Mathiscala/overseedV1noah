@@ -1,0 +1,23 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1e22dd3e-4586-4023-888e-22cffed0cb64}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>OverSeed</RootNamespace>
+    <AssemblyName>OverSeed</AssemblyName>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <CAMProjectFile>OverSeed\PrjLibrary.mdb</CAMProjectFile>
+    <UniqueProjectId>{1e22dd3e-4586-4023-888e-22cffed0cb64}</UniqueProjectId>
+    <CAMProjectVersion>5.50.7</CAMProjectVersion>
+    <Name>OverSeed</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Simulation' ">
+    <OutputPath>bin\Simulation\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Online' ">
+    <OutputPath>bin\Online\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(DevEnvDir)\PackagesToLoad\Targets\ISaGRAF.ISaGRAF5.targets" />
+  <Import Project="$(DevEnvDir)\PackagesToLoad\Targets\Carel.targets" />
+</Project>

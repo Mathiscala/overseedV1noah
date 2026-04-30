@@ -1,0 +1,447 @@
+﻿<Manifest
+  Version="1.0.0"
+  IsLibrary="true">
+  <Libraries />
+  <Pou
+    Name="RuntimeCfgCheck_SCHED"
+    Moniker="RuntimeCfgCheck_SCHED.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="Day"
+      Comment=""
+      DataType="DINT"
+      Kind="VarInput" />
+    <Variable
+      Name="DaysSched"
+      Comment=""
+      DataType="DAYS_SCHED"
+      Kind="VarInput" />
+    <Variable
+      Name="VacationsSched"
+      Comment=""
+      DataType="VACATIONS_SCHED"
+      Kind="VarInput" />
+    <Variable
+      Name="SpecDaysSched"
+      Comment=""
+      DataType="SPECIALDAYS_SCHED"
+      Kind="VarInput" />
+    <Variable
+      Name="CfgErr"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="i"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="n"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="ErrN"
+      Comment=""
+      DataType="UINT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="CurrDateCalc_SCHED"
+    Moniker="CurrDateCalc_SCHED.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="Minute"
+      Comment=""
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Hour"
+      Comment=""
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="WkDay"
+      Comment=""
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Day"
+      Comment=""
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Month"
+      Comment=""
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="Year"
+      Comment=""
+      DataType="UINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="YearIsLeap"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="CurrTime"
+      Comment=""
+      DataType="TIME"
+      Kind="VarOutput" />
+    <Variable
+      Name="CurrDate"
+      Comment=""
+      DataType="DATE"
+      Kind="VarOutput" />
+    <Variable
+      Name="DateToUint"
+      Comment=""
+      DataType="DATE_TO_UINT"
+      Kind="Var" />
+    <Variable
+      Name="YearTmp"
+      Comment=""
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="MonthTmp"
+      Comment=""
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="UINT_TO_DATE_1"
+      Comment=""
+      DataType="UINT_TO_DATE"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="VacationsDailyCheck_SCHED"
+    Moniker="VacationsDailyCheck_SCHED.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="false">
+    <Variable
+      Name="VacationsMessage"
+      Comment=""
+      DataType="USINT"
+      Kind="VarInput" />
+    <Variable
+      Name="VacationsScheduler"
+      Comment=""
+      DataType="VACATIONS_SCHED"
+      Kind="VarInput" />
+    <Variable
+      Name="DaysScheduler"
+      Comment=""
+      DataType="DAYS_SCHED"
+      Kind="VarInput" />
+    <Variable
+      Name="CurrentDate"
+      Comment=""
+      DataType="DATE"
+      Kind="VarInput" />
+    <Variable
+      Name="CurrentWkDay"
+      Comment=""
+      DataType="UINT"
+      Kind="VarInput" />
+    <Variable
+      Name="CurrentTime"
+      Comment=""
+      DataType="TIME"
+      Kind="VarInput" />
+    <Variable
+      Name="SpecDayIsAuto"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="VacationAct"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="CurrentUnitStatus"
+      Comment=""
+      DataType="USINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="DaySchedAct"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="NoVacationsAct"
+      Comment=""
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="i"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="n"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="Dayplus"
+      Comment=""
+      DataType="UINT"
+      Kind="Var" />
+    <Variable
+      Name="prevDay"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="NoDayEventActive"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="time0"
+      Comment=""
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="time1"
+      Comment=""
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="OneDayWasActive"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="NoDayEventActivePrevDay"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="t"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="TempDayStatus"
+      Comment=""
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="j"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+  </Pou>
+  <Pou
+    Name="Scheduler"
+    Moniker="Scheduler.stf"
+    Language="ST"
+    IsIec61499="false"
+    Kind="FunctionBlock"
+    Password="E4BDBA2BEF6CC4DC"
+    GenerateDebugInfo="false"
+    GeneratingMonitoringSymbols="true"
+    UserEdited="false"
+    Deprecated="false"
+    IsVisible="true">
+    <Variable
+      Name="En_SCHED"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarInput" />
+    <Variable
+      Name="CurrUnitStatus_SCHED"
+      Comment=""
+      DataType="USINT"
+      Kind="VarOutput" />
+    <Variable
+      Name="SchedActive_SCHED"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="CfgErr_SCHED"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarOutput" />
+    <Variable
+      Name="DaysSched"
+      Comment=""
+      DataType="DAYS_SCHED"
+      Kind="Var" />
+    <Variable
+      Name="VacationsSched"
+      Comment=""
+      DataType="VACATIONS_SCHED"
+      Kind="Var" />
+    <Variable
+      Name="SpecDaysSched"
+      Comment=""
+      DataType="SPECIALDAYS_SCHED"
+      Kind="Var" />
+    <Variable
+      Name="time1"
+      Comment=""
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="time2"
+      Comment=""
+      DataType="TIME"
+      Kind="Var" />
+    <Variable
+      Name="n"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="i"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="t"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="Day"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="Day_old"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="Event_Msk"
+      Comment=""
+      DataType="DAYEVENTSMASK_SCHED"
+      Kind="Var" />
+    <Variable
+      Name="SaveData"
+      Comment=""
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="DaysSchedMsg"
+      Comment="Messages to be displayed for daily events"
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="TP_1"
+      Comment=""
+      DataType="TP"
+      Kind="Var" />
+    <Variable
+      Name="EnSaveData"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="EnDayCopy"
+      Comment=""
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="CopyTo_Day"
+      Comment=""
+      DataType="DINT"
+      Kind="Var" />
+    <Variable
+      Name="Error"
+      Comment=""
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="ForceReload"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="CurrDateTime_Sched"
+      Comment=""
+      DataType="CurrDateCalc_SCHED"
+      Kind="Var" />
+    <Variable
+      Name="VacationsMsg"
+      Comment="Messages to be displayed for vacation periods"
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="SpecDaysMsg"
+      Comment="Messages to be displayed for special days"
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="DaySchedActive"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="VacationActive"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="SpecDayActive"
+      Comment=""
+      DataType="BOOL"
+      Kind="Var" />
+    <Variable
+      Name="GiveMeTheDate"
+      Comment=""
+      DataType="UINT_TO_DATE"
+      Kind="Var" />
+    <Variable
+      Name="NoSpecDaysActive"
+      Comment=""
+      DataType="USINT"
+      Kind="Var" />
+    <Variable
+      Name="VacationsDailyChk"
+      Comment=""
+      DataType="VacationsDailyCheck_SCHED"
+      Kind="Var" />
+    <Variable
+      Name="CfgChk"
+      Comment=""
+      DataType="RuntimeCfgCheck_SCHED"
+      Kind="Var" />
+    <Variable
+      Name="En_Msk"
+      Comment="Enable the masks"
+      DataType="BOOL"
+      Kind="Var" />
+  </Pou>
+</Manifest>

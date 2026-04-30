@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FILE_2CT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HEADER SCHEMA_VERSION="2" />
+  <LANGUAGES_DEFINITION ISO_NAME_DEFAULT="EN">
+    <LANGUAGES>
+      <LANGUAGE ISO_NAME="EN">
+        <LANGUAGE_DESCRIPTION_KEYS>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ov0_1mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Unit On-Off from keypad 0pourOFF 1pourON" SHORT_DESCRIPTION="ov0_1mCDrt" LONG_DESCRIPTION="Unit On-Off from keypad 0pourOFF 1pourON" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ov0_1mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Unit On-Off from keypad 0pourOFF 1pourON" SHORT_DESCRIPTION="ov0_1mCGch" LONG_DESCRIPTION="Unit On-Off from keypad 0pourOFF 1pourON" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovClrHmCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Reset alarms log  0_1=No_Yes" SHORT_DESCRIPTION="ovClrHmCDrt" LONG_DESCRIPTION="Reset alarms log  0_1=No_Yes" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovClrHmCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Reset alarms log  0_1=No_Yes" SHORT_DESCRIPTION="ovClrHmCGch" LONG_DESCRIPTION="Reset alarms log  0_1=No_Yes" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE000mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="ExV circuit 1 : mode manuel 0_1 pour Non_Oui" SHORT_DESCRIPTION="ovE000mCDrt" LONG_DESCRIPTION="ExV circuit 1 : mode manuel 0_1 pour Non_Oui" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE000mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="ExV circuit 1 : mode manuel 0_1 pour Non_Oui" SHORT_DESCRIPTION="ovE000mCGch" LONG_DESCRIPTION="ExV circuit 1 : mode manuel 0_1 pour Non_Oui" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovRESmCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Reset alarms from BMS 0_1=No_Yes" SHORT_DESCRIPTION="ovRESmCDrt" LONG_DESCRIPTION="Reset alarms from BMS 0_1=No_Yes" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovRESmCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Reset alarms from BMS 0_1=No_Yes" SHORT_DESCRIPTION="ovRESmCGch" LONG_DESCRIPTION="Reset alarms from BMS 0_1=No_Yes" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ov_FreeCooling_OuiNon">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="toutes les conditions pour le Free Cooling sont à VRAItoutes les conditions pour le Free Cooling sont à VRAI" SHORT_DESCRIPTION="ov_FreeCooling_OuiNon" LONG_DESCRIPTION="toutes les conditions pour le Free Cooling sont à VRAItoutes les conditions pour le Free Cooling sont à VRAI" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ov_FreeDeshu_OuiNon">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="toutes les conditions pour la Free Deshu sont à VRAI" SHORT_DESCRIPTION="ov_FreeDeshu_OuiNon" LONG_DESCRIPTION="toutes les conditions pour la Free Deshu sont à VRAI" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovAutorisation_PAC_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Autorisation fonctionnement PAC Drte" SHORT_DESCRIPTION="ovAutorisation_PAC_D" LONG_DESCRIPTION="Autorisation fonctionnement PAC Drte" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovAutorisation_PAC_G">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Autorisation fonctionnement PAC Gche" SHORT_DESCRIPTION="ovAutorisation_PAC_G" LONG_DESCRIPTION="Autorisation fonctionnement PAC Gche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC_blocage_free_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne verrouillage free cooling système Droite" SHORT_DESCRIPTION="ovC_blocage_free_D" LONG_DESCRIPTION="Consigne verrouillage free cooling système Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC_blocage_free_Deshu">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Autorisation free Déshu" SHORT_DESCRIPTION="ovC_blocage_free_Deshu" LONG_DESCRIPTION="Autorisation free Déshu" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC_blocage_free_G">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne verrouillage free cooling système gauche" SHORT_DESCRIPTION="ovC_blocage_free_G" LONG_DESCRIPTION="Consigne verrouillage free cooling système gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC_blocage_free_GetD">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne verrouillage free cooling Gche et Drte" SHORT_DESCRIPTION="ovC_blocage_free_GetD" LONG_DESCRIPTION="Consigne verrouillage free cooling Gche et Drte" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovChoix_Nord_Sud">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Choix si Système coté Nord ou Sud (Nord=OFF/Non; Sud=ON/Oui)" SHORT_DESCRIPTION="ovChoix_Nord_Sud" LONG_DESCRIPTION="Choix si Système coté Nord ou Sud (Nord=OFF/Non; Sud=ON/Oui)" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCText">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="" SHORT_DESCRIPTION="ovCText" LONG_DESCRIPTION="" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCvit_ventil_ventil">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="" SHORT_DESCRIPTION="ovCvit_ventil_ventil" LONG_DESCRIPTION="" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovForce_M_A_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Forçage du ON/OFF micro chiller D" SHORT_DESCRIPTION="ovForce_M_A_D" LONG_DESCRIPTION="Forçage du ON/OFF micro chiller D" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovForce_M_A_G">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Forçage du ON/OFF micro chiller G" SHORT_DESCRIPTION="ovForce_M_A_G" LONG_DESCRIPTION="Forçage du ON/OFF micro chiller G" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovORD_ouv_Reg_Mel_D_Forcee">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ordre ouverture forcée Registre Mélange système de Droite" SHORT_DESCRIPTION="ovORD_ouv_Reg_Mel_D_Forcee" LONG_DESCRIPTION="Ordre ouverture forcée Registre Mélange système de Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovORD_ouv_Reg_Mel_G_Forcee">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ordre ouverture forcée Registre Mélange système de Gauche" SHORT_DESCRIPTION="ovORD_ouv_Reg_Mel_G_Forcee" LONG_DESCRIPTION="Ordre ouverture forcée Registre Mélange système de Gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovORD_ventil_Int_Forcee">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ordre marche forcée ventilateurs intérieur G et D" SHORT_DESCRIPTION="ovORD_ventil_Int_Forcee" LONG_DESCRIPTION="Ordre marche forcée ventilateurs intérieur G et D" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovOuv_Reg_free_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ouverture ou Fermeture registre de free cooling système Droite" SHORT_DESCRIPTION="ovOuv_Reg_free_D" LONG_DESCRIPTION="Ouverture ou Fermeture registre de free cooling système Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovOuv_Reg_free_G">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ouverture ou Fermeture registre de free cooling système gauche" SHORT_DESCRIPTION="ovOuv_Reg_free_G" LONG_DESCRIPTION="Ouverture ou Fermeture registre de free cooling système gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovOuv_Reg_free_GetD">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Etat registre de free cooling Gche et Droite" SHORT_DESCRIPTION="ovOuv_Reg_free_GetD" LONG_DESCRIPTION="Etat registre de free cooling Gche et Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovORD_chaud_Priva_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ordre Chauffage PRIVA pour COM en BMS2" SHORT_DESCRIPTION="ovORD_chaud_Priva_BMS2" LONG_DESCRIPTION="Ordre Chauffage PRIVA pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovORD_Night_Day_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Information si jour ou nuit pour vitesse ventil en mode ventil seule pour COM en BMS2" SHORT_DESCRIPTION="ovORD_Night_Day_BMS2" LONG_DESCRIPTION="Information si jour ou nuit pour vitesse ventil en mode ventil seule pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovORD_rafraich_Priva">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ordre Rafraichissement PRIVA" SHORT_DESCRIPTION="ovORD_rafraich_Priva" LONG_DESCRIPTION="Ordre Rafraichissement PRIVA" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovORD_ventil_Priva_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ordre Ventilation PRIVA pour COM en BMS2" SHORT_DESCRIPTION="ovORD_ventil_Priva_BMS2" LONG_DESCRIPTION="Ordre Ventilation PRIVA pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovM_A_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="ON/OFF Système Droite" SHORT_DESCRIPTION="ovM_A_D" LONG_DESCRIPTION="ON/OFF Système Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovM_A_G">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="ON/OFF Système Gauche" SHORT_DESCRIPTION="ovM_A_G" LONG_DESCRIPTION="ON/OFF Système Gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovORD_ventil_IntD_Forcee">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ordre marche forcée ventilateurs intérieur Droite" SHORT_DESCRIPTION="ovORD_ventil_IntD_Forcee" LONG_DESCRIPTION="Ordre marche forcée ventilateurs intérieur Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovORD_ventil_IntG_Forcee">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ordre marche forcée ventilateurs intérieur Gauche" SHORT_DESCRIPTION="ovORD_ventil_IntG_Forcee" LONG_DESCRIPTION="Ordre marche forcée ventilateurs intérieur Gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovAFC1mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Circuit 1: source water delivery temperature" SHORT_DESCRIPTION="ovAFC1mCDrt" LONG_DESCRIPTION="Circuit 1: source water delivery temperature" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovAFC1mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Circuit 1: source water delivery temperature" SHORT_DESCRIPTION="ovAFC1mCGch" LONG_DESCRIPTION="Circuit 1: source water delivery temperature" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC000mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Compr.1 circuit 1: heures marche x100" SHORT_DESCRIPTION="ovC000mCDrt" LONG_DESCRIPTION="Compr.1 circuit 1: heures marche x100" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC000mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Compr.1 circuit 1: heures marche x100" SHORT_DESCRIPTION="ovC000mCGch" LONG_DESCRIPTION="Compr.1 circuit 1: heures marche x100" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC012mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Temps mini allumage du compresseur" SHORT_DESCRIPTION="ovC012mCGch" LONG_DESCRIPTION="Temps mini allumage du compresseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC013mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Temps mini arret compresseur" SHORT_DESCRIPTION="ovC013mCDrt" LONG_DESCRIPTION="Temps mini arret compresseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC013mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Temps mini arret compresseur" SHORT_DESCRIPTION="ovC013mCGch" LONG_DESCRIPTION="Temps mini arret compresseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC014mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Temps mini entre allumages consecutifs compresseur" SHORT_DESCRIPTION="ovC014mCDrt" LONG_DESCRIPTION="Temps mini entre allumages consecutifs compresseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC014mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Temps mini entre allumages consecutifs compresseur" SHORT_DESCRIPTION="ovC014mCGch" LONG_DESCRIPTION="Temps mini entre allumages consecutifs compresseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC049mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Pressostat BP : retard de l’alarme au démarrage du compresseur" SHORT_DESCRIPTION="ovC049mCDrt" LONG_DESCRIPTION="Pressostat BP : retard de l’alarme au démarrage du compresseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC049mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Pressostat BP : retard de l’alarme au démarrage du compresseur" SHORT_DESCRIPTION="ovC049mCGch" LONG_DESCRIPTION="Pressostat BP : retard de l’alarme au démarrage du compresseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC050mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Pressostat BP : retard de l’alarme au régime" SHORT_DESCRIPTION="ovC050mCDrt" LONG_DESCRIPTION="Pressostat BP : retard de l’alarme au régime" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC050mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Pressostat BP : retard de l’alarme au régime" SHORT_DESCRIPTION="ovC050mCGch" LONG_DESCRIPTION="Pressostat BP : retard de l’alarme au régime" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE001mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="ExV circuit 1 : Nombre de pas en mode manuel" SHORT_DESCRIPTION="ovE001mCDrt" LONG_DESCRIPTION="ExV circuit 1 : Nombre de pas en mode manuel" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE001mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="ExV circuit 1 : Nombre de pas en mode manuel" SHORT_DESCRIPTION="ovE001mCGch" LONG_DESCRIPTION="ExV circuit 1 : Nombre de pas en mode manuel" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE004mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne surchauffe mode refroidisseur" SHORT_DESCRIPTION="ovE004mCDrt" LONG_DESCRIPTION="Consigne surchauffe mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE004mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne surchauffe mode refroidisseur" SHORT_DESCRIPTION="ovE004mCGch" LONG_DESCRIPTION="Consigne surchauffe mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE005mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Kp pour PID det élec mode refroidisseur" SHORT_DESCRIPTION="ovE005mCDrt" LONG_DESCRIPTION="Kp pour PID det élec mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE005mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Kp pour PID det élec mode refroidisseur" SHORT_DESCRIPTION="ovE005mCGch" LONG_DESCRIPTION="Kp pour PID det élec mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE006mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ti pour PID det élec mode refroidisseur" SHORT_DESCRIPTION="ovE006mCDrt" LONG_DESCRIPTION="Ti pour PID det élec mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE006mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ti pour PID det élec mode refroidisseur" SHORT_DESCRIPTION="ovE006mCGch" LONG_DESCRIPTION="Ti pour PID det élec mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE007mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Td pour PID det élec mode refroidisseur" SHORT_DESCRIPTION="ovE007mCDrt" LONG_DESCRIPTION="Td pour PID det élec mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE007mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Td pour PID det élec mode refroidisseur" SHORT_DESCRIPTION="ovE007mCGch" LONG_DESCRIPTION="Td pour PID det élec mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE012mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Seuil Low SuperHeat en refroidisseur" SHORT_DESCRIPTION="ovE012mCDrt" LONG_DESCRIPTION="Seuil Low SuperHeat en refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE012mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Seuil Low SuperHeat en refroidisseur" SHORT_DESCRIPTION="ovE012mCGch" LONG_DESCRIPTION="Seuil Low SuperHeat en refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE013mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ti Low Superheat mode refroidisseur" SHORT_DESCRIPTION="ovE013mCDrt" LONG_DESCRIPTION="Ti Low Superheat mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE013mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ti Low Superheat mode refroidisseur" SHORT_DESCRIPTION="ovE013mCGch" LONG_DESCRIPTION="Ti Low Superheat mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE016mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Seuil LOP mode refroidisseur" SHORT_DESCRIPTION="ovE016mCDrt" LONG_DESCRIPTION="Seuil LOP mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE016mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Seuil LOP mode refroidisseur" SHORT_DESCRIPTION="ovE016mCGch" LONG_DESCRIPTION="Seuil LOP mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE017mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ti LOP mode refroidisseur" SHORT_DESCRIPTION="ovE017mCDrt" LONG_DESCRIPTION="Ti LOP mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE017mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ti LOP mode refroidisseur" SHORT_DESCRIPTION="ovE017mCGch" LONG_DESCRIPTION="Ti LOP mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE020mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Seuil MOP mode refroidisseur" SHORT_DESCRIPTION="ovE020mCDrt" LONG_DESCRIPTION="Seuil MOP mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE020mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Seuil MOP mode refroidisseur" SHORT_DESCRIPTION="ovE020mCGch" LONG_DESCRIPTION="Seuil MOP mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE021mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ti MOP mode refroidisseur" SHORT_DESCRIPTION="ovE021mCDrt" LONG_DESCRIPTION="Ti MOP mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE021mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ti MOP mode refroidisseur" SHORT_DESCRIPTION="ovE021mCGch" LONG_DESCRIPTION="Ti MOP mode refroidisseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE024mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="LowSH : temps de retard alarme" SHORT_DESCRIPTION="ovE024mCDrt" LONG_DESCRIPTION="LowSH : temps de retard alarme" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE024mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="LowSH : temps de retard alarme" SHORT_DESCRIPTION="ovE024mCGch" LONG_DESCRIPTION="LowSH : temps de retard alarme" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE025mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="LOP : temps de retard alarme" SHORT_DESCRIPTION="ovE025mCDrt" LONG_DESCRIPTION="LOP : temps de retard alarme" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE025mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="LOP : temps de retard alarme" SHORT_DESCRIPTION="ovE025mCGch" LONG_DESCRIPTION="LOP : temps de retard alarme" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE026mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="MOP : temps de retard alarme" SHORT_DESCRIPTION="ovE026mCDrt" LONG_DESCRIPTION="MOP : temps de retard alarme" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE026mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="MOP : temps de retard alarme" SHORT_DESCRIPTION="ovE026mCGch" LONG_DESCRIPTION="MOP : temps de retard alarme" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE032mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ouverture % vanne au départ" SHORT_DESCRIPTION="ovE032mCDrt" LONG_DESCRIPTION="Ouverture % vanne au départ" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovE032mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ouverture % vanne au départ" SHORT_DESCRIPTION="ovE032mCGch" LONG_DESCRIPTION="Ouverture % vanne au départ" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovEuP1mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Circuit 1: evaporation temperature _converted value" SHORT_DESCRIPTION="ovEuP1mCDrt" LONG_DESCRIPTION="Circuit 1: evaporation temperature _converted value" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovEuP1mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Circuit 1: evaporation temperature _converted value" SHORT_DESCRIPTION="ovEuP1mCGch" LONG_DESCRIPTION="Circuit 1: evaporation temperature _converted value" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovH1C1mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Comp. 1 circuit 1: hour counter" SHORT_DESCRIPTION="ovH1C1mCDrt" LONG_DESCRIPTION="Comp. 1 circuit 1: hour counter" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovH1C1mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Comp. 1 circuit 1: hour counter" SHORT_DESCRIPTION="ovH1C1mCGch" LONG_DESCRIPTION="Comp. 1 circuit 1: hour counter" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovHFn1mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Fan circuit 1: hour counter" SHORT_DESCRIPTION="ovHFn1mCDrt" LONG_DESCRIPTION="Fan circuit 1: hour counter" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovHSP1mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Source pump: hour counter" SHORT_DESCRIPTION="ovHSP1mCDrt" LONG_DESCRIPTION="Source pump: hour counter" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovHSP1mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Source pump: hour counter" SHORT_DESCRIPTION="ovHSP1mCGch" LONG_DESCRIPTION="Source pump: hour counter" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovHuP1mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="User pump 1: hour counter" SHORT_DESCRIPTION="ovHuP1mCDrt" LONG_DESCRIPTION="User pump 1: hour counter" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovHuP1mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="User pump 1: hour counter" SHORT_DESCRIPTION="ovHuP1mCGch" LONG_DESCRIPTION="User pump 1: hour counter" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovOpn1mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="ExV circuit 1: position" SHORT_DESCRIPTION="ovOpn1mCDrt" LONG_DESCRIPTION="ExV circuit 1: position" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovOpn1mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="ExV circuit 1: position" SHORT_DESCRIPTION="ovOpn1mCGch" LONG_DESCRIPTION="ExV circuit 1: position" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovS028mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ventilateur source en refroidissement : point de consigne" SHORT_DESCRIPTION="ovS028mCDrt" LONG_DESCRIPTION="Ventilateur source en refroidissement : point de consigne" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovS028mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ventilateur source en refroidissement : point de consigne" SHORT_DESCRIPTION="ovS028mCGch" LONG_DESCRIPTION="Ventilateur source en refroidissement : point de consigne" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovS032mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ventilateur source : retard démarrage en refroidissement" SHORT_DESCRIPTION="ovS032mCDrt" LONG_DESCRIPTION="Ventilateur source : retard démarrage en refroidissement" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovS032mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ventilateur source : retard démarrage en refroidissement" SHORT_DESCRIPTION="ovS032mCGch" LONG_DESCRIPTION="Ventilateur source : retard démarrage en refroidissement" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovScP1mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Circuit 1: suction pressure" SHORT_DESCRIPTION="ovScP1mCDrt" LONG_DESCRIPTION="Circuit 1: suction pressure" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovScP1mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Circuit 1: suction pressure" SHORT_DESCRIPTION="ovScP1mCGch" LONG_DESCRIPTION="Circuit 1: suction pressure" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovScT1mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Circuit 1: suction temperature" SHORT_DESCRIPTION="ovScT1mCDrt" LONG_DESCRIPTION="Circuit 1: suction temperature" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovScT1mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Circuit 1: suction temperature" SHORT_DESCRIPTION="ovScT1mCGch" LONG_DESCRIPTION="Circuit 1: suction temperature" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovSEtCmCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Cooling set point" SHORT_DESCRIPTION="ovSEtCmCDrt" LONG_DESCRIPTION="Cooling set point" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovSEtCmCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Cooling set point" SHORT_DESCRIPTION="ovSEtCmCGch" LONG_DESCRIPTION="Cooling set point" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovSSH1mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="suction superheat Circuit 1" SHORT_DESCRIPTION="ovSSH1mCDrt" LONG_DESCRIPTION="suction superheat Circuit 1" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovSSH1mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="suction superheat Circuit 1" SHORT_DESCRIPTION="ovSSH1mCGch" LONG_DESCRIPTION="suction superheat Circuit 1" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovU047mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Retard activation compresseur après ventilo_pompe" SHORT_DESCRIPTION="ovU047mCDrt" LONG_DESCRIPTION="Retard activation compresseur après ventilo_pompe" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovU047mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Retard activation compresseur après ventilo_pompe" SHORT_DESCRIPTION="ovU047mCGch" LONG_DESCRIPTION="Retard activation compresseur après ventilo_pompe" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovU048mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Retard arrêt pompe_ventilo après compresseur " SHORT_DESCRIPTION="ovU048mCDrt" LONG_DESCRIPTION="Retard arrêt pompe_ventilo après compresseur " ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovU048mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Retard arrêt pompe_ventilo après compresseur " SHORT_DESCRIPTION="ovU048mCGch" LONG_DESCRIPTION="Retard arrêt pompe_ventilo après compresseur " ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovU081mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Modalité de Reset alarmes" SHORT_DESCRIPTION="ovU081mCDrt" LONG_DESCRIPTION="Modalité de Reset alarmes" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovU081mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Modalité de Reset alarmes" SHORT_DESCRIPTION="ovU081mCGch" LONG_DESCRIPTION="Modalité de Reset alarmes" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCOuv_Reg_mel_G_mode_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne ouverture registre mélange système gauche mode déshu seul" SHORT_DESCRIPTION="ovCOuv_Reg_mel_G_mode_D" LONG_DESCRIPTION="Consigne ouverture registre mélange système gauche mode déshu seul" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC_diff_w_DeshNON">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Valeur acceptable de différentiel de poids d'eau entre air extérieur et air intérieur quand besoin déshu NON" SHORT_DESCRIPTION="ovC_diff_w_DeshNON" LONG_DESCRIPTION="Valeur acceptable de différentiel de poids d'eau entre air extérieur et air intérieur quand besoin déshu NON" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC_diff_w_DeshOUI">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Valeur acceptable de différentiel de poids d'eau entre air extérieur et air intérieur quand besoin déshu OUI" SHORT_DESCRIPTION="ovC_diff_w_DeshOUI" LONG_DESCRIPTION="Valeur acceptable de différentiel de poids d'eau entre air extérieur et air intérieur quand besoin déshu OUI" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC_diff_w_FreeDeshu">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne de DH souhaitée si FreeDéshu" SHORT_DESCRIPTION="ovC_diff_w_FreeDeshu" LONG_DESCRIPTION="Consigne de DH souhaitée si FreeDéshu" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCcorrect_Cffg">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="% de correction sur vitesse ventilation ext si Chauffage = Oui" SHORT_DESCRIPTION="ovCcorrect_Cffg" LONG_DESCRIPTION="% de correction sur vitesse ventilation ext si Chauffage = Oui" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCcorrect_DT_24deg">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="% de correction sur vitesse ventilation ext selon DT Tserre-24 / N% par °C" SHORT_DESCRIPTION="ovCcorrect_DT_24deg" LONG_DESCRIPTION="% de correction sur vitesse ventilation ext selon DT Tserre-24 / N% par °C" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCcorrect_DT_sfflg">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="% de correction sur vitesse ventilation ext selon DT Tsoufflage-Tserre / N% par °C" SHORT_DESCRIPTION="ovCcorrect_DT_sfflg" LONG_DESCRIPTION="% de correction sur vitesse ventilation ext selon DT Tsoufflage-Tserre / N% par °C" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovC012mCDrt">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Temps mini allumage du compresseur" SHORT_DESCRIPTION="ovC012mCDrt" LONG_DESCRIPTION="Temps mini allumage du compresseur" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCDT1_freecool">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Delta T1 : Si Text&lt;Tserre, pour ne pas introduire un air trop froid, on autorise /ex jusqu’à 4°C en-dessous Tserre" SHORT_DESCRIPTION="ovCDT1_freecool" LONG_DESCRIPTION="Consigne Delta T1 : Si Text&lt;Tserre, pour ne pas introduire un air trop froid, on autorise /ex jusqu’à 4°C en-dessous Tserre" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCDT2_freecool">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Delta T2 : Si Text&gt;Tserre, pour ne pas introduire un air trop chaud, on autorise /ex jusqu’à 4°C en-dessus Tserre" SHORT_DESCRIPTION="ovCDT2_freecool" LONG_DESCRIPTION="Consigne Delta T2 : Si Text&gt;Tserre, pour ne pas introduire un air trop chaud, on autorise /ex jusqu’à 4°C en-dessus Tserre" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCDT_freeDeshu">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Delta T en valeur absolue : On prend valeur absolue de Text-Tserre, pour ne pas introduire un air trop éloigné de Tserre, on autorise par exemple jusqu’à 6°C d'écart (il y a le mélange avec l'air qui passe par les batteries)" SHORT_DESCRIPTION="ovCDT_freeDeshu" LONG_DESCRIPTION="Consigne Delta T en valeur absolue : On prend valeur absolue de Text-Tserre, pour ne pas introduire un air trop éloigné de Tserre, on autorise par exemple jusqu’à 6°C d'écart (il y a le mélange avec l'air qui passe par les batteries)" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCDT_serre_ext_free_mode_C">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Delta T serre -extérieur mini pour chauffage par free cooling sans déshu" SHORT_DESCRIPTION="ovCDT_serre_ext_free_mode_C" LONG_DESCRIPTION="Consigne Delta T serre -extérieur mini pour chauffage par free cooling sans déshu" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCDT_serre_ext_free_mode_DetC">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Delta T serre -extérieur mini pour chauffage pdt déshu par free cooling " SHORT_DESCRIPTION="ovCDT_serre_ext_free_mode_DetC" LONG_DESCRIPTION="Consigne Delta T serre -extérieur mini pour chauffage pdt déshu par free cooling " ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCDT_serre_ext_free_mode_R">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Delta T serre -extérieur mini pour rafraichaissement par free cooling" SHORT_DESCRIPTION="ovCDT_serre_ext_free_mode_R" LONG_DESCRIPTION="Consigne Delta T serre -extérieur mini pour rafraichaissement par free cooling" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCDT_souf_serre_mode_C">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Delta (Température soufflage - Tserre) mode Chauffage" SHORT_DESCRIPTION="ovCDT_souf_serre_mode_C" LONG_DESCRIPTION="Consigne Delta (Température soufflage - Tserre) mode Chauffage" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCDT_souf_serre_mode_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Delta (Température soufflage - Tserre) mode déshu seul" SHORT_DESCRIPTION="ovCDT_souf_serre_mode_D" LONG_DESCRIPTION="Consigne Delta (Température soufflage - Tserre) mode déshu seul" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCDT_souf_serre_mode_DsansC">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Delta (Température soufflage - Tserre) mode Déshu seul sans besoin de Chauffage" SHORT_DESCRIPTION="ovCDT_souf_serre_mode_DsansC" LONG_DESCRIPTION="Consigne Delta (Température soufflage - Tserre) mode Déshu seul sans besoin de Chauffage" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCOuv_Reg_mel_D_mode_C">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne ouverture registre mélange système Droite mode chauffage seul" SHORT_DESCRIPTION="ovCOuv_Reg_mel_D_mode_C" LONG_DESCRIPTION="Consigne ouverture registre mélange système Droite mode chauffage seul" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCOuv_Reg_mel_D_mode_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne ouverture registre mélange système Droite mode déshu seul" SHORT_DESCRIPTION="ovCOuv_Reg_mel_D_mode_D" LONG_DESCRIPTION="Consigne ouverture registre mélange système Droite mode déshu seul" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCOuv_Reg_mel_D_mode_DetC">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne ouverture registre mélange système Droite mode D+C" SHORT_DESCRIPTION="ovCOuv_Reg_mel_D_mode_DetC" LONG_DESCRIPTION="Consigne ouverture registre mélange système Droite mode D+C" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCOuv_Reg_mel_D_mode_FreeCool">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne ouverture registre mélange système Droite mode FreeCooling" SHORT_DESCRIPTION="ovCOuv_Reg_mel_D_mode_FreeCool" LONG_DESCRIPTION="Consigne ouverture registre mélange système Droite mode FreeCooling" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCOuv_Reg_mel_D_mode_V">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne ouverture registre mélange système Droite mode ventilation" SHORT_DESCRIPTION="ovCOuv_Reg_mel_D_mode_V" LONG_DESCRIPTION="Consigne ouverture registre mélange système Droite mode ventilation" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCOuv_Reg_mel_G_mode_C">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne ouverture registre mélange système gauche mode chauffage seul" SHORT_DESCRIPTION="ovCOuv_Reg_mel_G_mode_C" LONG_DESCRIPTION="Consigne ouverture registre mélange système gauche mode chauffage seul" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCOuv_Reg_mel_G_mode_DetC">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne ouverture registre mélange système gauche mode D+C" SHORT_DESCRIPTION="ovCOuv_Reg_mel_G_mode_DetC" LONG_DESCRIPTION="Consigne ouverture registre mélange système gauche mode D+C" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCOuv_Reg_mel_G_mode_FreeCool">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne ouverture registre mélange système gauche mode FreeCooling" SHORT_DESCRIPTION="ovCOuv_Reg_mel_G_mode_FreeCool" LONG_DESCRIPTION="Consigne ouverture registre mélange système gauche mode FreeCooling" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCOuv_Reg_mel_G_mode_V">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne ouverture registre mélange système gauche mode ventilation" SHORT_DESCRIPTION="ovCOuv_Reg_mel_G_mode_V" LONG_DESCRIPTION="Consigne ouverture registre mélange système gauche mode ventilation" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCpoint_neutre_Vent_ext">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="% de vitesse Ventilo ext si pas de correction" SHORT_DESCRIPTION="ovCpoint_neutre_Vent_ext" LONG_DESCRIPTION="% de vitesse Ventilo ext si pas de correction" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCT_serre">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Température serre" SHORT_DESCRIPTION="ovCT_serre" LONG_DESCRIPTION="Consigne Température serre" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCT_souf_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Température soufflage système de Droite" SHORT_DESCRIPTION="ovCT_souf_D" LONG_DESCRIPTION="Consigne Température soufflage système de Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCT_souf_G">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Température soufflage système de Gauche" SHORT_DESCRIPTION="ovCT_souf_G" LONG_DESCRIPTION="Consigne Température soufflage système de Gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCText_debut_correctif">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Text seuil de début de correction vitesse ventilos Ext selon Text" SHORT_DESCRIPTION="ovCText_debut_correctif" LONG_DESCRIPTION="Text seuil de début de correction vitesse ventilos Ext selon Text" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCText_Max_FreeCooling">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Valeur de Text Maximale au-dessus de laquelle pas de freeCooling" SHORT_DESCRIPTION="ovCText_Max_FreeCooling" LONG_DESCRIPTION="Valeur de Text Maximale au-dessus de laquelle pas de freeCooling" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCText_min_FreeCooling">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Valeur de Text minimale en-dessous de laquelle pas de freeCooling" SHORT_DESCRIPTION="ovCText_min_FreeCooling" LONG_DESCRIPTION="Valeur de Text minimale en-dessous de laquelle pas de freeCooling" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCText_min_FreeDeshu">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Valeur de Text minimale en-dessous de laquelle pas de freeDeshu" SHORT_DESCRIPTION="ovCText_min_FreeDeshu" LONG_DESCRIPTION="Valeur de Text minimale en-dessous de laquelle pas de freeDeshu" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCTserre_freecool">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Température Serre, au-delà freecooling pour Rafraichissement" SHORT_DESCRIPTION="ovCTserre_freecool" LONG_DESCRIPTION="Consigne Température Serre, au-delà freecooling pour Rafraichissement" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCvit_mini_Vent_ext">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="% de vitesse minimale pour ventilo ext" SHORT_DESCRIPTION="ovCvit_mini_Vent_ext" LONG_DESCRIPTION="% de vitesse minimale pour ventilo ext" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCvit_ventil_freecool">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Vitesse de ventilation Intérieure demandée en mode Free cooling" SHORT_DESCRIPTION="ovCvit_ventil_freecool" LONG_DESCRIPTION="Consigne Vitesse de ventilation Intérieure demandée en mode Free cooling" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCvit_ventil_ventil_Nuit">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Vitesse de ventilation Intérieure demandée en mode Ventilation seule s'il fait Nuit" SHORT_DESCRIPTION="ovCvit_ventil_ventil_Nuit" LONG_DESCRIPTION="Consigne Vitesse de ventilation Intérieure demandée en mode Ventilation seule s'il fait Nuit" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCw_ext_max_free_cooling">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne poids d'eau max air ext pour free cooling" SHORT_DESCRIPTION="ovCw_ext_max_free_cooling" LONG_DESCRIPTION="Consigne poids d'eau max air ext pour free cooling" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovDiviseur_Nord_Sud">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Diviseur par 10 ou 0,1 selon coté Nord ou Sud" SHORT_DESCRIPTION="ovDiviseur_Nord_Sud" LONG_DESCRIPTION="Diviseur par 10 ou 0,1 selon coté Nord ou Sud" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCcorrect_Text">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="% de correction sur vitesse ventilation ext selon Text (-n% par °C en-dessous de 14°C)" SHORT_DESCRIPTION="ovCcorrect_Text" LONG_DESCRIPTION="% de correction sur vitesse ventilation ext selon Text (-n% par °C en-dessous de 14°C)" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovPRIVA_HRext_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Humidité relative Extérieure mesurée par le Priva pour COM en BMS2" SHORT_DESCRIPTION="ovPRIVA_HRext_BMS2" LONG_DESCRIPTION="Humidité relative Extérieure mesurée par le Priva pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovPRIVA_Text_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Textérieure mesurée par Priva pour COM en BMS2" SHORT_DESCRIPTION="ovPRIVA_Text_BMS2" LONG_DESCRIPTION="Textérieure mesurée par Priva pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovPRIVA_HRserreNord_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Humidité relative Serre moitiée Nord mesurée par le Priva pour COM en BMS2" SHORT_DESCRIPTION="ovPRIVA_HRserreNord_BMS2" LONG_DESCRIPTION="Humidité relative Serre moitiée Nord mesurée par le Priva pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovOuv_Reg_free_GetD_North_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ouverture ou Fermeture registre de free cooling Gauche et Droite coté Nord pour COM en BMS2" SHORT_DESCRIPTION="ovOuv_Reg_free_GetD_North_BMS2" LONG_DESCRIPTION="Ouverture ou Fermeture registre de free cooling Gauche et Droite coté Nord pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovOuv_Reg_free_GetD_South_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ouverture ou Fermeture registre de free cooling Gauche et Droite coté Sud pour COM en BMS2" SHORT_DESCRIPTION="ovOuv_Reg_free_GetD_South_BMS2" LONG_DESCRIPTION="Ouverture ou Fermeture registre de free cooling Gauche et Droite coté Sud pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovPRIVA_HRserreSud_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Humidité relative Serre moitiée Sud mesurée par le Priva pour COM en BMS2" SHORT_DESCRIPTION="ovPRIVA_HRserreSud_BMS2" LONG_DESCRIPTION="Humidité relative Serre moitiée Sud mesurée par le Priva pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovPRIVA_TserreNord_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Température Serre moitiée Nord fournie par PRIVA pour COM en BMS2" SHORT_DESCRIPTION="ovPRIVA_TserreNord_BMS2" LONG_DESCRIPTION="Température Serre moitiée Nord fournie par PRIVA pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovPRIVA_TserreSud_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Température Serre moitiée Sud fournie par PRIVA pour COM en BMS2" SHORT_DESCRIPTION="ovPRIVA_TserreSud_BMS2" LONG_DESCRIPTION="Température Serre moitiée Sud fournie par PRIVA pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovT_souf_moy_North_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Température de soufflage moyenne système coté Sud pour COM en BMS2" SHORT_DESCRIPTION="ovT_souf_moy_North_BMS2" LONG_DESCRIPTION="Température de soufflage moyenne système coté Sud pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovT_souf_moy_South_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Température de soufflage moyenne système coté Sud pour COM en BMS2" SHORT_DESCRIPTION="ovT_souf_moy_South_BMS2" LONG_DESCRIPTION="Température de soufflage moyenne système coté Sud pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovVventilo_int_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="vitesse ventilateur intérieur système de Droite" SHORT_DESCRIPTION="ovVventilo_int_D" LONG_DESCRIPTION="vitesse ventilateur intérieur système de Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovVventilo_int_D_Nord">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="vitesse ventilateur intérieur système de Droite" SHORT_DESCRIPTION="ovVventilo_int_D_Nord" LONG_DESCRIPTION="vitesse ventilateur intérieur système de Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovVventilo_int_D_Sud">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="vitesse ventilateur intérieur système de Droite" SHORT_DESCRIPTION="ovVventilo_int_D_Sud" LONG_DESCRIPTION="vitesse ventilateur intérieur système de Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovVventilo_int_G">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="vitesse ventilateur intérieur système de gauche" SHORT_DESCRIPTION="ovVventilo_int_G" LONG_DESCRIPTION="vitesse ventilateur intérieur système de gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovVventilo_int_G_Nord">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="vitesse ventilateur intérieur système de gauche" SHORT_DESCRIPTION="ovVventilo_int_G_Nord" LONG_DESCRIPTION="vitesse ventilateur intérieur système de gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovVventilo_int_G_Sud">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="vitesse ventilateur intérieur système de gauche" SHORT_DESCRIPTION="ovVventilo_int_G_Sud" LONG_DESCRIPTION="vitesse ventilateur intérieur système de gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovCDT_souf_serre_retenu">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Consigne Delta (Température soufflage - Tserre) retenu selon mode de fonctionnement en cours" SHORT_DESCRIPTION="ovCDT_souf_serre_retenu" LONG_DESCRIPTION="Consigne Delta (Température soufflage - Tserre) retenu selon mode de fonctionnement en cours" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovDT_souf_serre_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Delta Température (T soufflage - Tserre) système de Droite" SHORT_DESCRIPTION="ovDT_souf_serre_D" LONG_DESCRIPTION="Delta Température (T soufflage - Tserre) système de Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovDT_souf_serre_G">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Delta Température (T soufflage - Tserre) système de gauche" SHORT_DESCRIPTION="ovDT_souf_serre_G" LONG_DESCRIPTION="Delta Température (T soufflage - Tserre) système de gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovOuv_Reg_mel_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ouverture registre de mélange système Droite" SHORT_DESCRIPTION="ovOuv_Reg_mel_D" LONG_DESCRIPTION="Ouverture registre de mélange système Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovOuv_Reg_mel_G">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ouverture registre de mélange système gauche" SHORT_DESCRIPTION="ovOuv_Reg_mel_G" LONG_DESCRIPTION="Ouverture registre de mélange système gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovT_souf_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Température de soufflage système Droite (corrigée de l'offset)" SHORT_DESCRIPTION="ovT_souf_D" LONG_DESCRIPTION="Température de soufflage système Droite (corrigée de l'offset)" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovT_souf_G">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Température de soufflage système gauche (corrigée de l'offset)" SHORT_DESCRIPTION="ovT_souf_G" LONG_DESCRIPTION="Température de soufflage système gauche (corrigée de l'offset)" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovTserre">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Temp Serre après offset" SHORT_DESCRIPTION="ovTserre" LONG_DESCRIPTION="Temp Serre après offset" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovVventilo_ext_D">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="vitesse ventilateur extérieur système de Droite" SHORT_DESCRIPTION="ovVventilo_ext_D" LONG_DESCRIPTION="vitesse ventilateur extérieur système de Droite" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovVventilo_ext_G">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="vitesse ventilateur extérieur système de Gauche" SHORT_DESCRIPTION="ovVventilo_ext_G" LONG_DESCRIPTION="vitesse ventilateur extérieur système de Gauche" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovVventilo_int">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="vitesse ventilateur intérieur système G et D" SHORT_DESCRIPTION="ovVventilo_int" LONG_DESCRIPTION="vitesse ventilateur intérieur système G et D" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovw_DH_serre">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Deficit d'humidite absolue entre serre à saturation et humidite absolue serre en cours" SHORT_DESCRIPTION="ovw_DH_serre" LONG_DESCRIPTION="Deficit d'humidite absolue entre serre à saturation et humidite absolue serre en cours" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovw_ext">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="poids d'eau air ext" SHORT_DESCRIPTION="ovw_ext" LONG_DESCRIPTION="poids d'eau air ext" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovw_serre">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="poids d'eau air serre" SHORT_DESCRIPTION="ovw_serre" LONG_DESCRIPTION="poids d'eau air serre" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovw_serre_saturation">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="poids d'eau air serre à saturation" SHORT_DESCRIPTION="ovw_serre_saturation" LONG_DESCRIPTION="poids d'eau air serre à saturation" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovORD_deshu_Priva_BMS2">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Ordre Déshu PRIVA pour COM en BMS2" SHORT_DESCRIPTION="ovORD_deshu_Priva_BMS2" LONG_DESCRIPTION="Ordre Déshu PRIVA pour COM en BMS2" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+          <LANGUAGE_DESCRIPTION_KEY NAME="ovHFn1mCGch">
+            <TRANSLATIONS>
+              <TRANSLATION COMMENT="" DESCRIPTION="Fan circuit 1: hour counter" SHORT_DESCRIPTION="ovHFn1mCGch" LONG_DESCRIPTION="Fan circuit 1: hour counter" ORDER="0" />
+            </TRANSLATIONS>
+            <TRANSLATION_ITEMS />
+          </LANGUAGE_DESCRIPTION_KEY>
+        </LANGUAGE_DESCRIPTION_KEYS>
+      </LANGUAGE>
+    </LANGUAGES>
+  </LANGUAGES_DEFINITION>
+  <Filled>false</Filled>
+</FILE_2CT>

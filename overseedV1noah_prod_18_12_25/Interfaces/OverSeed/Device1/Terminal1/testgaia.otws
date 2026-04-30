@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Worksheet Name="testgaia" Version="1.0.0">
+  <Loop Name="Informations" X="0" Y="0">
+    <Mask Name="Page1_Date_Temp_HR" Type="Normal" X="0" Y="1">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text" Row="0" Column="16" Content="Page 1" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="Tserre" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="HRserre" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="Text" />
+        <Field Type="Text" Name="Text_6" Row="7" Column="0" Content="HRext" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="11" Content="ovTserre" Class="CL_REAL_1" Format="o+5.1" Min="-99999.9" Max="99999.9" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="11" Content="ovHRserre" Class="CL_REAL_1" Format="io+5.1" Min="-99999.9" Max="99999.9" />
+        <Field Type="Variable" Name="Variable_4" Row="7" Column="11" Content="ovHRext" Class="CL_REAL_2" Format="o+5.1" Min="-99.99" Max="99.99" />
+        <Field Type="Text" Name="Text_7" Row="3" Column="20" Content="ßC" />
+        <Field Type="Text" Name="Text_8" Row="6" Column="20" Content="ßC" />
+        <Field Type="Text" Name="Text_9" Row="4" Column="20" Content="%" />
+        <Field Type="Text" Name="Text_10" Row="7" Column="20" Content="%" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="11" Content="ovText" Class="CL_REAL_1" Format="o+5.1" Min="-99999.9" Max="99999.9" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page2_Besoins" Type="Normal" X="0" Y="2">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 2" />
+        <Field Type="Text" Name="Text" Row="1" Column="0" Content="Déshu" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="Chauffage" />
+        <Field Type="Text" Name="Text_4" Row="0" Column="1" Content="Besoin Oui/Non" />
+        <Field Type="Text" Name="Text_5" Row="5" Column="0" Content="Ventilation" />
+        <Field Type="Text" Name="Text_6" Row="6" Column="0" Content="Free Cooling" />
+        <Field Type="Variable" Name="Variable" Row="1" Column="9" Content="ovORD_deshu_Priva" Min="0" Max="1" Class="Oui_Non" Format="ob" />
+        <Field Type="Variable" Name="Variable_2" Row="3" Column="12" Content="ovORD_chaud_Priva" Min="0" Max="1" Class="Oui_Non" Format="ob" />
+        <Field Type="Variable" Name="Variable_3" Row="5" Column="12" Content="ovORD_ventil_Priva" Min="0" Max="1" Class="Oui_Non" Format="ob" />
+        <Field Type="Variable" Name="Variable_4" Row="6" Column="14" Content="ov_FreeCooling_OuiNon" Min="0" Max="1" Class="Oui_Non" Format="ob" />
+        <Field Type="Variable" Name="Variable_5" Row="5" Column="16" Content="ovORD_Night_Day" Min="0" Max="1" Class="Jour_Nuit" Format="ob" />
+        <Field Type="Text" Name="Text_7" Row="7" Column="0" Content="Free Deshu" />
+        <Field Type="Variable" Name="Variable_6" Row="7" Column="14" Content="ov_FreeDeshu_OuiNon" Min="0" Max="1" Class="Oui_Non" Format="ob" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page3_Registres" Type="Normal" X="0" Y="3">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 3" />
+        <Field Type="Text" Name="Text" Row="2" Column="0" Content="Systeme Gauche" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="5" Content="Mélange" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="17" Content="ovOuv_Reg_mel_G" Class="CL_REAL_0" Format="o+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Text" Name="Text_4" Row="3" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_5" Row="4" Column="5" Content="FreeCooling" />
+        <Field Type="Text" Name="Text_6" Row="5" Column="0" Content="Systeme Droite" />
+        <Field Type="Text" Name="Text_7" Row="6" Column="5" Content="Mélange" />
+        <Field Type="Text" Name="Text_8" Row="7" Column="5" Content="FreeCooling" />
+        <Field Type="Text" Name="Text_9" Row="6" Column="21" Content="%" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="17" Content="ovOuv_Reg_mel_D" Class="CL_REAL_0" Format="o+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Text" Name="Text_10" Row="4" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_11" Row="7" Column="21" Content="%" />
+        <Field Type="Variable" Name="Variable_4" Row="7" Column="17" Content="ovOuv_Reg_free_GetD_North" Class="CL_REAL_0" Format="o+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="17" Content="ovOuv_Reg_free_GetD_North" Class="CL_REAL_0" Format="o+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Text" Name="Text_12" Row="1" Column="0" Content="Ouverture Registres" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page4_pcVitesse_Ventilo" Type="Normal" X="0" Y="4">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text" Row="0" Column="16" Content="Page 4" />
+        <Field Type="Text" Name="Text_2" Row="1" Column="0" Content="Systeme Gauche" />
+        <Field Type="Text" Name="Text_3" Row="5" Column="0" Content="Systeme Droite" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="0" Content="Vit Ventil Int" />
+        <Field Type="Text" Name="Text_5" Row="2" Column="21" Content="%" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="16" Content="ovVventilo_int_G" Class="CL_REAL_0" Format="o+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Text" Name="Text_6" Row="3" Column="0" Content="Vit Ventil Ext" />
+        <Field Type="Text" Name="Text_7" Row="3" Column="21" Content="%" />
+        <Field Type="Variable" Name="Variable_2" Row="3" Column="16" Content="ovVventilo_ext_G" Class="CL_REAL_0" Format="o+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Text" Name="Text_8" Row="6" Column="0" Content="Vit Ventil Int" />
+        <Field Type="Text" Name="Text_9" Row="7" Column="0" Content="Vit Ventil Ext" />
+        <Field Type="Text" Name="Text_10" Row="6" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_11" Row="7" Column="21" Content="%" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="16" Content="ovVventilo_int_D" Class="CL_REAL_0" Format="o+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_4" Row="7" Column="16" Content="ovVventilo_ext_D" Class="CL_REAL_0" Format="o+3.0" Min="0.0" Max="100.0" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page5_T_Soufflage" Type="Normal" X="0" Y="5">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 5" />
+        <Field Type="Text" Name="Text" Row="4" Column="3" Content="Gauche" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="0" Content="Température Soufflage" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="11" Content="ovT_souf_G" Class="CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Text" Name="Text_3" Row="4" Column="16" Content="ßC" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="16" Content="ßC" />
+        <Field Type="Text" Name="Text_6" Row="6" Column="3" Content="Droite" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="11" Content="ovT_souf_D" Class="CL_REAL_1" Format="o+2.1" Min="-99.9" Max="99.9" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page6_Poids_eau" Type="Normal" X="0" Y="6">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 6" />
+        <Field Type="Text" Name="Text" Row="4" Column="2" Content="Serre" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="0" Content="Poids d'eau dans l'air" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="11" Content="ovw_serre" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_3" Row="4" Column="18" Content="g/kg" />
+        <Field Type="Text" Name="Text_6" Row="6" Column="2" Content="DH serre" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="18" Content="g/kg" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="11" Content="ovw_DH_serre" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page7_Poids_eau_suite" Type="Normal" X="0" Y="7">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 7" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="0" Content="Poids d'eau dans l'air" />
+        <Field Type="Text" Name="Text_6" Row="4" Column="2" Content="Ext" />
+        <Field Type="Text" Name="Text_5" Row="4" Column="16" Content="g/kg" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="9" Content="ovw_ext" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+      </Fields>
+    </Mask>
+  </Loop>
+  <Loop Name="Parametres" X="1" Y="0">
+    <Mask Name="Page1_Pos_Reg_Mel_SysG" Type="Normal" X="1" Y="1">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text" Row="1" Column="0" Content="Ouvertur Regist Mélang" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 1" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="1" Content="Mode Déshu seul" />
+        <Field Type="Text" Name="Text_4" Row="5" Column="1" Content="Mode Chauffage" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="1" Content="Mode Ventilatß" />
+        <Field Type="Text" Name="Text_7" Row="4" Column="1" Content="Mode FreeCooling" />
+        <Field Type="Text" Name="Text_8" Row="3" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_10" Row="4" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_11" Row="5" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_12" Row="6" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_13" Row="0" Column="2" Content="System Gauche" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="17" Content="ovCOuv_Reg_mel_G_mode_D" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="17" Content="ovCOuv_Reg_mel_G_mode_FreeCool" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_4" Row="5" Column="17" Content="ovCOuv_Reg_mel_G_mode_C" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_5" Row="6" Column="17" Content="ovCOuv_Reg_mel_G_mode_V" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page2_Pos_Reg_Mel_SysD" Type="Normal" X="1" Y="2">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="2" Content="System Droite" />
+        <Field Type="Text" Name="Text_3" Row="0" Column="16" Content="Page 2" />
+        <Field Type="Text" Name="Text_4" Row="1" Column="0" Content="Ouvertur Regist Mélang" />
+        <Field Type="Text" Name="Text_5" Row="3" Column="1" Content="Mode Déshu seul" />
+        <Field Type="Text" Name="Text_7" Row="4" Column="1" Content="Mode FreeCooling" />
+        <Field Type="Text" Name="Text_8" Row="5" Column="1" Content="Mode Chauffage" />
+        <Field Type="Text" Name="Text_9" Row="6" Column="1" Content="Mode Ventilatß" />
+        <Field Type="Text" Name="Text_10" Row="3" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_12" Row="4" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_13" Row="5" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_14" Row="6" Column="21" Content="%" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="17" Content="ovCOuv_Reg_mel_D_mode_D" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="17" Content="ovCOuv_Reg_mel_D_mode_FreeCool" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_4" Row="5" Column="17" Content="ovCOuv_Reg_mel_D_mode_C" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_5" Row="6" Column="17" Content="ovCOuv_Reg_mel_D_mode_V" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page3_ConsVitVentInt" Type="Normal" X="1" Y="3">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text" Row="1" Column="0" Content="Consigne Vit Vent Int" />
+        <Field Type="Text" Name="Text_2" Row="3" Column="3" Content="Déshu" />
+        <Field Type="Text" Name="Text_3" Row="4" Column="3" Content="Chauffage" />
+        <Field Type="Text" Name="Text_4" Row="5" Column="0" Content="Ventilation Jour" />
+        <Field Type="Text" Name="Text_5" Row="3" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_6" Row="4" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_7" Row="5" Column="21" Content="%" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="17" Content="ovCvit_ventil_deshu" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="17" Content="ovCvit_ventil_chaud" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_3" Row="5" Column="17" Content="ovCvit_ventil_ventil_Jour" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Text" Name="Text_8" Row="0" Column="16" Content="Page 3" />
+        <Field Type="Text" Name="Text_9" Row="6" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_10" Row="7" Column="3" Content="Free Cooling" />
+        <Field Type="Variable" Name="Variable_4" Row="7" Column="17" Content="ovCvit_ventil_freecool" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Text" Name="Text_11" Row="2" Column="0" Content="selon mode fonction" />
+        <Field Type="Text" Name="Text_12" Row="7" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_13" Row="6" Column="0" Content="Ventilation Nuit" />
+        <Field Type="Variable" Name="Variable_5" Row="6" Column="17" Content="ovCvit_ventil_ventil_Nuit" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page4_Vit_Ventil_Ext" Type="Normal" X="1" Y="4">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 4" />
+        <Field Type="Text" Name="Text" Row="1" Column="0" Content="Vitess Ventil Ext" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="0" Content="Point Neutre" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="Correct DT 24ßC" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="17" Content="ovCpoint_neutre_Vent_ext" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="17" Content="ovCcorrect_DT_24deg" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Text" Name="Text_10" Row="2" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_11" Row="5" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_12" Row="3" Column="0" Content="Correct si Chff -" />
+        <Field Type="Text" Name="Text_13" Row="3" Column="21" Content="%" />
+        <Field Type="Variable" Name="Variable_5" Row="3" Column="17" Content="ovCcorrect_Cffg" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Text" Name="Text_5" Row="5" Column="0" Content="Correct DT Sfflg" />
+        <Field Type="Text" Name="Text_14" Row="7" Column="20" Content="ßC" />
+        <Field Type="Variable" Name="Variable_6" Row="5" Column="17" Content="ovCcorrect_DT_sfflg" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Text" Name="Text_6" Row="7" Column="0" Content="Text seuil" />
+        <Field Type="Text" Name="Text_7" Row="6" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_8" Row="4" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_9" Row="6" Column="0" Content="Correct Text" />
+        <Field Type="Variable" Name="Variable_4" Row="6" Column="17" Content="ovCcorrect_Text" Class="CL_REAL_0" Format="io+3.0" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_3" Row="7" Column="15" Content="ovCText_debut_correctif" Class="CL_REAL_1" Format="io+2.1" Min="-99.9" Max="99.9" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page5_Autorisations" Type="Normal" X="1" Y="5">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 5" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="FreeCool Autorisé O/N" />
+        <Field Type="Variable" Name="Variable" Row="4" Column="17" Content="ovC_blocage_free_GetD" Min="0" Max="1" Class="Oui_Non" Format="iob" />
+        <Field Type="Text" Name="Text_4" Row="5" Column="0" Content="Ventilation 24h/24 O/N" />
+        <Field Type="Variable" Name="Variable_2" Row="7" Column="17" Content="ovORD_ventil_Int_Forcee" Min="0" Max="1" Class="Oui_Non" Format="iob" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="Mode Manu sans PRIVA" />
+        <Field Type="Text" Name="Text_6" Row="1" Column="0" Content="Autorisation PAC O/N" />
+        <Field Type="Text" Name="Text_7" Row="2" Column="0" Content="Gauche" />
+        <Field Type="Text" Name="Text_8" Row="2" Column="12" Content="Droite" />
+        <Field Type="Variable" Name="Variable_3" Row="2" Column="19" Content="ovAutorisation_PAC_D" Min="0" Max="1" Class="Oui_Non" Format="iob" />
+        <Field Type="Variable" Name="Variable_4" Row="2" Column="7" Content="ovAutorisation_PAC_G" Min="0" Max="1" Class="Oui_Non" Format="iob" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page6_DeltaT" Type="Normal" X="1" Y="6">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 6" />
+        <Field Type="Text" Name="Text" Row="1" Column="1" Content="Delta T objectif" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="1" Content="Tsoufflage - Tserre" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="Mode Déshu seul" />
+        <Field Type="Text" Name="Text_5" Row="5" Column="0" Content="Mode Déshu+Chauff" />
+        <Field Type="Text" Name="Text_6" Row="6" Column="0" Content="Mode Déshu+Rafr" />
+        <Field Type="Variable" Name="Variable" Row="4" Column="17" Content="ovCDT_souf_serre_mode_D" Class="CL_REAL_1" Format="io+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Variable" Name="Variable_2" Row="5" Column="17" Content="ovCDT_souf_serre_mode_C" Class="CL_REAL_1" Format="io+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="17" Content="ovCDT_souf_serre_mode_DsansC" Class="CL_REAL_1" Format="io+2.1" Min="-99.9" Max="99.9" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page7_PID_G" Type="Normal" X="1" Y="7">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 7" />
+        <Field Type="Text" Name="Text" Row="1" Column="0" Content="Paramètres PID syst G" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="0" Content="Proportionnel Kp" />
+        <Field Type="Text" Name="Text_4" Row="3" Column="0" Content="Intégral Ti" />
+        <Field Type="Text" Name="Text_5" Row="4" Column="0" Content="Dérivé Td" />
+        <Field Type="Text" Name="Text_6" Row="5" Column="0" Content="Zone morte" />
+        <Field Type="Text" Name="Text_7" Row="6" Column="0" Content="Limite basse" />
+        <Field Type="Text" Name="Text_8" Row="7" Column="0" Content="Limite haute" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="16" Content="ovPID_Kp_G" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_3" Row="3" Column="16" Content="ovPID_Ti_G" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_4" Row="4" Column="16" Content="ovPID_Td_G" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_5" Row="5" Column="16" Content="ovPID_DeadBand_G" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_6" Row="7" Column="16" Content="ovPID_HighLim_G" Class="CL_REAL_1" Format="io+3.1" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_7" Row="6" Column="16" Content="ovPID_LowLim_G" Class="CL_REAL_1" Format="io+3.1" Min="0.0" Max="10.0" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page8_PID_D" Type="Normal" X="1" Y="8">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 8" />
+        <Field Type="Text" Name="Text" Row="1" Column="0" Content="Paramètres PID syst D" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="0" Content="Proportionnel Kp" />
+        <Field Type="Text" Name="Text_4" Row="3" Column="0" Content="Intégral Ti" />
+        <Field Type="Text" Name="Text_5" Row="4" Column="0" Content="Dérivé Td" />
+        <Field Type="Text" Name="Text_6" Row="5" Column="0" Content="Zone morte" />
+        <Field Type="Text" Name="Text_7" Row="6" Column="0" Content="Limite basse" />
+        <Field Type="Text" Name="Text_8" Row="7" Column="0" Content="Limite haute" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="16" Content="ovPID_Kp_D" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_3" Row="3" Column="16" Content="ovPID_Ti_D" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_4" Row="4" Column="16" Content="ovPID_Td_D" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_5" Row="5" Column="16" Content="ovPID_DeadBand_D" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_6" Row="7" Column="16" Content="ovPID_HighLim_D" Class="CL_REAL_1" Format="io+3.1" Min="0.0" Max="100.0" />
+        <Field Type="Variable" Name="Variable_7" Row="6" Column="16" Content="ovPID_LowLim_D" Class="CL_REAL_1" Format="io+3.1" Min="0.0" Max="10.0" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page9_Free_Cooling" Type="Normal" X="1" Y="9">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="16" Content="Page 9" />
+        <Field Type="Text" Name="Text" Row="1" Column="0" Content="Paramètres FreeCooling" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="Tserre Max OK freeCool" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="Text min pour freeCool" />
+        <Field Type="Variable" Name="Variable_2" Row="5" Column="13" Content="ovCTserre_freecool" Class="CL_REAL_1" Format="io+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Text" Name="Text_6" Row="5" Column="18" Content="ßC" />
+        <Field Type="Text" Name="Text_7" Row="7" Column="18" Content="ßC" />
+        <Field Type="Variable" Name="Variable_3" Row="7" Column="13" Content="ovCText_min_FreeCooling" Class="CL_REAL_1" Format="io+2.1" Min="-99.9" Max="99.9" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page10_Free_Cooling_suite" Type="Normal" X="1" Y="10">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="15" Content="Page 10" />
+        <Field Type="Text" Name="Text_3" Row="1" Column="0" Content="Paramètres FreeCooling" />
+        <Field Type="Text" Name="Text_7" Row="2" Column="0" Content="diff poids eau poss" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="Si besoin Déshu OUI" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="Si besoin Déshu NON" />
+        <Field Type="Text" Name="Text_6" Row="3" Column="0" Content="entre Serre et Ext" />
+        <Field Type="Variable" Name="Variable_2" Row="5" Column="15" Content="ovC_diff_w_DeshOUI" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Text" Name="Text_8" Row="5" Column="0" Content="diff en moins" />
+        <Field Type="Text" Name="Text_9" Row="7" Column="0" Content="diff en plus" />
+        <Field Type="Variable" Name="Variable_3" Row="7" Column="15" Content="ovC_diff_w_DeshNON" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page11_Free_Deshu1" Type="Normal" X="1" Y="11">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="15" Content="Page 11" />
+        <Field Type="Text" Name="Text_3" Row="1" Column="0" Content="Paramètres Free Déshu" />
+        <Field Type="Text" Name="Text_6" Row="3" Column="0" Content="Autorisation Oui/Non" />
+        <Field Type="Variable" Name="Variable_2" Row="7" Column="14" Content="ovCText_min_FreeDeshu" Class="CL_REAL_0" Format="io+2.1" Min="-99.0" Max="99.0" />
+        <Field Type="Text" Name="Text_8" Row="5" Column="0" Content="Temperature extérieure" />
+        <Field Type="Variable" Name="Variable_4" Row="4" Column="17" Content="ovC_blocage_free_Deshu" Min="0" Max="1" Class="Oui_Non" Format="iob" />
+        <Field Type="Text" Name="Text_4" Row="6" Column="2" Content="minimale" />
+        <Field Type="Text" Name="Text_5" Row="7" Column="19" Content="ßC" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page12_Free_Deshu2" Type="Normal" X="1" Y="12">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="15" Content="Page 12" />
+        <Field Type="Text" Name="Text_3" Row="1" Column="0" Content="Paramètres Free Deshu" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="2" Content="Tserre et Text" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="Consigne de DH serre" />
+        <Field Type="Text" Name="Text_6" Row="3" Column="0" Content="DeltaT maxi entre" />
+        <Field Type="Text" Name="Text_9" Row="7" Column="2" Content="souhaitée" />
+        <Field Type="Variable" Name="Variable_3" Row="7" Column="14" Content="ovC_diff_w_FreeDeshu" Class="CL_REAL_1" Format="io+2.1" Min="-99.9" Max="99.9" />
+        <Field Type="Text" Name="Text_7" Row="5" Column="19" Content="ßC" />
+        <Field Type="Variable" Name="Variable_2" Row="5" Column="14" Content="ovCDT_freeDeshu" Class="CL_REAL_0" Format="io+2.1" Min="-99.0" Max="99.0" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page13_Forcage_ON_OFF" Type="Normal" X="1" Y="13">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="15" Content="Page 13" />
+        <Field Type="Text" Name="Text_3" Row="1" Column="0" Content="Forcage ON/OFF" />
+        <Field Type="Variable" Name="Variable" Row="4" Column="15" Content="ovForce_M_A_G" Class="ON_OFF" Format="iob" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_7" Row="3" Column="0" Content="micro Chiller Gauche" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="micro Chiller Droite" />
+        <Field Type="Variable" Name="Variable_2" Row="7" Column="15" Content="ovForce_M_A_D" Class="ON_OFF" Format="iob" Min="0" Max="1" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page14_Syteme_Nord_ou_Sud_Clone_2" Type="Normal" X="1" Y="14">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="15" Content="Page 14" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="3" Content="Coté Nord ou Sud" />
+        <Field Type="Variable" Name="Variable" Row="4" Column="8" Content="ovChoix_Nord_Sud" Class="Nord_Sud" Format="iob" Min="0" Max="1" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page14_Syteme_Nord_ou_Sud_Clone_2_Clone_2" Type="Normal" X="1" Y="15">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="15" Content="Page 15" />
+        <Field Type="Variable" Name="Variable" Row="6" Column="8" Content="Fonctions.surpressionOuverture" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text" Row="6" Column="14" Content="%" />
+        <Field Type="Variable" Name="Variable_2" Row="3" Column="7" Content="Fonctions.surpressionTseuil" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="13" Content="ßC" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="0" Content="TserreSeuilSurpression" />
+        <Field Type="Text" Name="Text_5" Row="5" Column="0" Content="Ouverture regFreecool" />
+      </Fields>
+    </Mask>
+    <Mask Name="Page15_forcage_unite_matin_Clone_2" Type="Normal" X="1" Y="16">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="15" Content="Page 16" />
+        <Field Type="Text" Name="Text_3" Row="0" Column="0" Content="Forçage matin" />
+        <Field Type="Text" Name="Text_4" Row="1" Column="1" Content="autorisation:" />
+        <Field Type="Text" Name="Text_6" Row="6" Column="0" Content="Plage horaire:" />
+        <Field Type="Text" Name="Text_7" Row="6" Column="18" Content="~" />
+        <Field Type="Text" Name="Text_5" Row="2" Column="0" Content="Unite gch/drt:" />
+        <Field Type="Variable" Name="Variable" Row="1" Column="14" Content="Fonctions.ov_autorisation_forcage_matin" Min="0" Max="1" Class="Oui_Non" Format="iob" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="14" Content="Fonctions.ov_forcage_gch_drt" Min="0" Max="1" Class="Gch_drt" Format="iob" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="15" Content="Fonctions.ov_debut_forcage" Class="CL_UINT" Format="io2" Min="0" Max="23" />
+        <Field Type="Variable" Name="Variable_4" Row="6" Column="19" Content="Fonctions.ov_fin_forcage" Class="CL_UINT" Format="io2" Min="0" Max="23" />
+        <Field Type="Text" Name="Text" Row="6" Column="17" Content="h" />
+        <Field Type="Text" Name="Text_8" Row="6" Column="21" Content="h" />
+        <Field Type="Text" Name="Text_9" Row="3" Column="0" Content="Humidite" />
+        <Field Type="Text" Name="Text_10" Row="4" Column="0" Content="Hysterresis" />
+        <Field Type="Text" Name="Text_11" Row="3" Column="13" Content=":" />
+        <Field Type="Text" Name="Text_12" Row="4" Column="13" Content=":" />
+        <Field Type="Variable" Name="Variable_5" Row="4" Column="14" Content="Fonctions.hystforcage" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_6" Row="3" Column="14" Content="Fonctions.HRforcage" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_13" Row="3" Column="21" Content="%" />
+      </Fields>
+    </Mask>
+    <Mask Name="Set" Type="Normal" X="1" Y="17" Color="LightBlue">
+      <Fields>
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_1" Row="0" Column="1" Content="TIME" />
+        <Field Type="Variable" Name="Variable_1" Row="0" Column="0" Content="dummy" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="8" Content="Fonctions.LeverDuSoleilH_1" Class="CL_INT" Format="io2" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_2" Row="7" Column="8" Content="Fonctions.CoucherDuSoleilH_1" Class="CL_INT" Format="io2" Min="0" Max="99" />
+        <Field Type="Text" Name="Text" Row="5" Column="3" Content="CoucherDuSoleil" />
+        <Field Type="Variable" Name="Variable_3" Row="7" Column="11" Content="Fonctions.CoucherDuSoleilM_1" Class="CL_INT" Format="io2" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_2" Row="7" Column="10" Content="h" />
+        <Field Type="Text" Name="Text_3" Row="1" Column="5" Content="LeverDuSoleil" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="11" Content="Fonctions.LeverDuSoleilM_1" Class="CL_INT" Format="io2" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_4" Row="3" Column="10" Content="h" />
+        <Field Type="Text" Name="Text_5" Row="0" Column="15" Content="Page 17" />
+      </Fields>
+      <KeyBindings />
+    </Mask>
+    <Mask Name="Page15_SerialPorts" Type="Normal" X="1" Y="18" Color="255, 155, 160">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_1" Row="0" Column="1" Content="BMS2" />
+        <Field Type="Text" Name="Text_2" Row="1" Column="0" Content="Port IP" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="Protocole: Modbus IP" />
+        <Field Type="Text" Name="Text_7" Row="4" Column="0" Content="Addresse:" />
+        <Field Type="Variable" Name="Variable_4" Row="4" Column="11" Content="GeneralMng.Address_IP" Class="CL_UINT" Format="io3" Min="0" Max="255" />
+        <Field Type="Text" Name="Text_4" Row="0" Column="15" Content="Page 17" />
+      </Fields>
+      <ResourceUsedOnBool>
+        <Index Value="0" Content="No" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="10" ProportionalCharWidth="true" />
+        <Index Value="1" Content="Yes" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="10" ProportionalCharWidth="true" />
+      </ResourceUsedOnBool>
+    </Mask>
+    <Mask Name="Page16_SerialPorts" Type="Normal" X="1" Y="19" Color="255, 155, 160">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_1" Row="0" Column="1" Content="BMS2" />
+        <Field Type="Text" Name="Text_2" Row="1" Column="0" Content="Port BMS2" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="Protocole: Modbus RTU" />
+        <Field Type="Text" Name="Text_7" Row="4" Column="0" Content="Addresse:" />
+        <Field Type="Variable" Name="Variable_4" Row="4" Column="11" Content="GeneralMng.Address_BMS2" Class="CL_UINT" Format="io3" Min="0" Max="255" />
+        <Field Type="Text" Name="Text_4" Row="0" Column="15" Content="Page 18" />
+      </Fields>
+      <ResourceUsedOnBool>
+        <Index Value="0" Content="No" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="10" ProportionalCharWidth="true" />
+        <Index Value="1" Content="Yes" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="10" ProportionalCharWidth="true" />
+      </ResourceUsedOnBool>
+    </Mask>
+  </Loop>
+</Worksheet>

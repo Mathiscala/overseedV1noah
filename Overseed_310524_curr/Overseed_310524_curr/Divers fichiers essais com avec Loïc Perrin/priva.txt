@@ -1,0 +1,21 @@
+Version 1.3 ModbusSlave RepoVersion 3.6.6								
+Settings								
+Address	TimeOut	UoM	OnlineError	Endianess	ResponseDataEcho	AppSupport	DeviceConfErr	DeviceConfErrCode
+2	3000	0	Online_error	LittleEndian_swapped	True	False		
+								
+Variables								
+Type	Index	Variable	Occupation					
+Coil	7	ovORD_deshu_Priva		 pour COM en BMS2				
+Coil	8	ovORD_chaud_Priva						
+Coil	9	ovORD_ventil_Priva						
+Coil	10	ovORD_Night_Day						
+HoldingRegister	5009	ovPRIVA_Text	2					
+HoldingRegister	5011	ovPRIVA_HRserreSud	2					
+HoldingRegister	5013	ovPRIVA_TserreSud	2					
+HoldingRegister	5015	ovPRIVA_HRext	2					
+HoldingRegister	5017	ovPRIVA_HRserreNord	2					
+HoldingRegister	5019	ovPRIVA_TserreNord	2					
+InputRegister	60	ovT_souf_moy_North	2					
+InputRegister	62	ovOuv_Reg_free_GetD_North	2					
+InputRegister	64	ovT_souf_moy_South	2					
+InputRegister	66	ovOuv_Reg_free_GetD_South	2					

@@ -1,0 +1,61 @@
+﻿------ Build started: Project: OverSeed, Configuration: CAREL_PCO ------
+
+------ Pre-build task started: 2022-05-31 12:15:58 ------
+Carel(31,5): Warning : Variable GeneralMng.MemWarning: Comment contains the not valid characters: "
+Variables names validation: correct state - elapsed time: 597 ms 
+
+------ Pre-build task completed: 2022-05-31 12:16:03 ------
+
+------ Build started: Project : OverSeed ------
+Checking database...
+-------------------- Check project for resource(s) to pre-build: OVERSEED --------------------
+OVERSEED:    0 error(s), 0 warning(s)
+Checking database...
+-------------------- Build project: OVERSEED --------------------
+-------------------- Build resource: RESOURCE1    Configuration: DEVICE1 --------------
+Compiling for CAREL_PCO
+AND2COM
+AND5COM
+AND10COM
+DELAYONOFF_INT
+NOT2
+NOT5
+NOT10
+RFTRIG
+HYSTERADV_INT
+ENTHALPY_INT
+UNITMEASTEMP_INT
+UNITMEASTEMPDELTA_INT
+UNITMEAS_P_INT
+FONCTIONS
+Linking for CAREL_PCO
+RESOURCE1:    0 error(s), 0 warning(s)
+Compiling for SIMULATOR
+AND2COM
+AND5COM
+AND10COM
+DELAYONOFF_INT
+NOT2
+NOT5
+NOT10
+RFTRIG
+HYSTERADV_INT
+ENTHALPY_INT
+UNITMEASTEMP_INT
+UNITMEASTEMPDELTA_INT
+UNITMEAS_P_INT
+FONCTIONS
+Linking for SIMULATOR
+RESOURCE1:    0 error(s), 0 warning(s)
+OVERSEED:    0 error(s), 0 warning(s)
+------ Build End ------
+
+
+------ Post-build task started: 2022-05-31 12:16:20 ------
+Time: 1 secs.
+Common Repository created successfully
+------ Post-build task completed: 2022-05-31 12:16:21 ------
+
+
+
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
